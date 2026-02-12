@@ -1,7 +1,7 @@
-# BIOL 6101 - Assignment 2: Snakemake Workflow for NGS Data Analysis
+# Assignment 2
 
 ## Overview
-In this assignment, you will build a **Snakemake workflow** to process next-generation sequencing (NGS) data. You will perform quality control on FASTQ files and map the reads to a reference genome. This assignment will help you develop reproducible bioinformatic pipelines using workflow management systems.
+In this assignment, you will build a **Snakemake workflow** to process next-generation sequencing (NGS) data. You will perform quality control on FASTQ files and map the reads to a reference genome. This assignment will help you develop reproducible bioinformatic pipelines using Snakemake.
 
 ## Learning Objectives
 By completing this assignment, you will:
@@ -120,11 +120,10 @@ Submit the following via GitHub by merging your working branch into the main bra
 **Do not commit large data files or BAM files to GitHub!** Use `.gitignore` appropriately.
 
 ## Tips
-- Start small: test your workflow with one sample before scaling up
+- Start small: test your workflow one rule at a time
 - Use `snakemake --dry-run` frequently to check for errors
 - Review the [Snakemake tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
-- FastQC warnings are common but investigate failures
-- Make sure to add the results directory to your `.gitignore` file to avoid committing large files
+- Make sure to add the results and .snakemake directories to your `.gitignore` file to avoid committing large files
 
 ## Resources
 - [Snakemake Documentation](https://snakemake.readthedocs.io/)
